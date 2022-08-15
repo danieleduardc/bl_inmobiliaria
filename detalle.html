@@ -15,7 +15,10 @@
     <script src="https://kit.fontawesome.com/04e6dc64f4.js" crossorigin="anonymous"></script>
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
   </head>
   <body>
     <div class="page">
@@ -28,7 +31,7 @@
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap-1"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <a class="rd-navbar-brand" href="index.html"><img src="image/icono-head-bl-151x44.png" alt="" width="140" height="52"  srcset="image/icono-head-bl-151x44.png"/></img>
+                  <a class="rd-navbar-brand" href="index.html"><img class="logo" src="image/logo-bl.png" alt="" srcset="image/logo-bl.png"/></img>
                 </div>
                 <div>
                   <font color="black" size="4" face="Candara"><b>B.L</b><br>Bienes y Proyectos</font>
@@ -41,8 +44,8 @@
                       <div class="unit-left"><span class="icon novi-icon icon-md icon-modern mdi mdi-phone"></span></div>
                       <div class="unit-body">
                         <ul class="list-0">
-                          <li><a class="https://wa.link/04wi9x" href="tel:#">+57 3152889381</a></li>
-                          <li><a class="https://wa.link/04wi9x" href="tel:#">+57 3122035231</a></li>
+                          <li><a class="#" href="tel:#">+57 3152889381</a></li>
+                          <li><a class="#" href="tel:#">+57 3122035231</a></li>
                         </ul>
                       </div>
                     </article>
@@ -59,9 +62,9 @@
                 <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-1">
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
-                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Inicio</a>
+                    <li class="rd-nav-item "><a class="rd-nav-link" href="index.html">Inicio</a>
                     </li>
-                    <li class="rd-nav-item"><a class="rd-nav-link" href="propiedades.html">Propiedades</a>
+                    <li class="rd-nav-item "><a class="rd-nav-link" href="propiedades.html">Propiedades</a>
                     </li>
                     <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contáctenos</a>
                     </li>
@@ -102,9 +105,9 @@
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatibus veniam non voluptate, ipsa eius magni aliquid ratione sit, odio reprehenderit in quis repudiandae dolor.</p>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur, veritatis, ducimus in aliquam magnam voluptatibus ullam libero fugiat temporibus at, aliquid explicabo placeat eligendi, assumenda magni saepe eius consequuntur.</p>
                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dicta aliquid, autem, cum, impedit nostrum, rem molestias quisquam ab iure enim totam? Itaque esse ut adipisci officiis nulla repellendus ratione dolore, iste ex doloribus tenetur eos provident quam quasi maxime.</p>
-                   
+                   <p>&nbsp;</p>
                    <div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2771.9701453136727!2d-75.75425533951706!3d4.562044605759132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1660165847767!5m2!1ses!2sco" width="90%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.2953893419133!2d-75.75391451186843!3d4.561352999791867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d9d97624a5579d0!2zNMKwMzMnNDAuOSJOIDc1wrA0NScxMi4xIlc!5e0!3m2!1ses-419!2sco!4v1660542968323!5m2!1ses-419!2sco" width="90%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                   </div>
                  </div>
                 </div>           
@@ -137,58 +140,61 @@
                     <div><span class="material-icons" style="font-size: 33px; color: #88031a">account_balance</span><span class="demo-text">Administración: </span></div>
                 </div>
               </aside>
-            </div>  
-          </div>
-        </div>
-      </section>
-      <!-- Best offer-->
-      <section class="section novi-background section-1 bg-primary-darker text-center" style="background-image: url(image/slider-minimal-slide-2-1920x968h.jpg);">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-sm-10 col-lg-7 col-xl-6">
-              <h3 class="wow-outer"><span class="wow slideInDown text-uppercase">Best offers</span></h3>
-              <p class="heading-subtitle">of September</p>
-              <p class="wow-outer offset-top-4"><span class="wow slideInDown" data-wow-delay=".05s">With a variety of accountants available at our company, you can always choose one that fits your corporate requirements.</span></p>
-              <div class="wow-outer button-outer"><a class="button button-primary-white button-winona wow slideInDown" href="#" data-wow-delay=".1s">Read more</a></div>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>  
+              <aside class="aa-properties-sidebar">
+                <!-- class="aa-barra-sidebar" -->
+                <!-- Start Single properties sidebar -->
+              <div class="aa-properties-single-sidebar">
+                <h3>Populer Properties</h3>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="img/item/1.jpg" alt="img">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href="#">This is Title</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>                
+                    <span>$65000</span>
+                  </div>              
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="img/item/1.jpg" alt="img">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href="#">This is Title</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>                
+                    <span>$65000</span>
+                  </div>              
+                </div>
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="img/item/1.jpg" alt="img">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href="#">This is Title</a></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>                
+                    <span>$65000</span>
+                  </div>              
+                </div>
+              </div>
+              </aside>
+              
             </div>
           </div>
         </div>
       </section>
+      <!-- / Latest property -->
+
       <!-- Page Footer-->
         <footer id="aa-footer">
             <footer class="section novi-background footer-advanced bg-gray-700">
-              <div class="footer-advanced-main">
-                <div class="container">
-                  <div class="row row-50">
-                    <div class="col-lg-4">
-                      <h5 class="font-weight-bold text-uppercase text-white">About Us</h5>
-                      <p class="footer-advanced-text">inHouse is the largest full-service real estate and property management company. We offer expertise in the marketing and sale of a wide range of properties, including residential real estate, farms and lifestyle blocks, as well as commercial and industrial properties that we hope may interest you.</p>
-                    </div>
-                    <div class="col-sm-7 col-md-5 col-lg-4">
-                      <h5 class="font-weight-bold text-uppercase text-white">Recent Blog Posts</h5>
-                      <!-- Post Inline-->
-                      <article class="post-inline">
-                        <p class="post-inline-title"><a href="#">Real Estate Guide: 7 Important Tips for Buying a Home</a></p>
-                        <ul class="post-inline-meta">
-                          <li>by Mike Barnes</li>
-                          <li><a href="#">2 days ago</a></li>
-                        </ul>
-                      </article>
-                      <!-- Post Inline-->
-                      <article class="post-inline">
-                        <p class="post-inline-title"><a href="#">Single-Family Homes as a Housing Option for Young Families</a></p>
-                        <ul class="post-inline-meta"> 
-                          <li>by Mike Barnes</li>
-                          <li><a href="#">2 days ago</a></li>
-                        </ul>
-                      </article>
-                    </div>
-                    <div class="col-sm-5 col-md-7 col-lg-4">
-                      <h5 class="font-weight-bold text-uppercase text-white">Gallery</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div class="footer-advanced-aside">
                 <div class="container">
                   <div class="footer-advanced-layout">

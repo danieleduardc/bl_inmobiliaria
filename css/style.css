@@ -1790,6 +1790,12 @@ img {
 	height: auto;
 }
 
+.logo{
+	display: inline-block;
+	max-width: 80%;
+	height: auto;
+}
+
 .img-responsive {
 	width: 100%;
 }

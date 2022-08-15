@@ -1495,6 +1495,13 @@ img {
   padding: 12px 45px;
   width: 100%;
 }
+.aa-barra-sidebar{
+  background-color: white;
+  display: inline;
+  float: left;
+  padding: 12px 45px;
+  width: 100%;
+}
 #aa-properties .aa-properties-sidebar .aa-properties-single-sidebar {
   display: inline;
   float: left;
