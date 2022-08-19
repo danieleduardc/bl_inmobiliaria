@@ -730,7 +730,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 30px 0;
 }
 #aa-latest-property .aa-latest-property-area {
   display: inline;
@@ -771,12 +771,21 @@ img {
   left: 15px;
   top: -15px;
 }
-.aa-properties-item .for-rent {
-  background-color: #20ceb3;
+.aa-properties-item .quindio {
+  background-color: #0ee2b9;
 }
-.aa-properties-item .sold-out {
-  background-color: #ff0000;
+.aa-properties-item .risaralda {
+  background-color: #e6105a;
 }
+
+.aa-properties-item .cauca {
+  background-color: #7110e6;
+}
+
+.aa-properties-item .caldas {
+  background-color: #055142;
+}
+
 .aa-properties-item .aa-properties-item-content {
   background-color: #fff;
   border: 1px solid #ddd;
