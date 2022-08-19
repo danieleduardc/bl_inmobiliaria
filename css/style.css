@@ -715,6 +715,11 @@ a[href*='tel'], a[href*='mailto'] {
 	font-size: 20px;
 }
 
+.imagenes-widget{
+	width: 571px;
+	height: 372px;
+}
+
 .box-minimal-icon .box-chloe__icon .box-chloe__icon {
 	position: relative;
 	top: 4px;
