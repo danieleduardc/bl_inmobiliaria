@@ -4179,6 +4179,7 @@ input[type="button"].btn-block {
 
 .media-body {
 	flex: 1;
+	text-align: right;
 }
 
 .list-group {

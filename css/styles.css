@@ -771,10 +771,10 @@ img {
   left: 15px;
   top: -15px;
 }
-.aa-properties-item .quindio {
-  background-color: #0ee2b9;
+.aa-properties-item .propiedades {
+  background-color: #870419;
 }
-.aa-properties-item .risaralda {
+/* .aa-properties-item .risaralda {
   background-color: #e6105a;
 }
 
@@ -784,7 +784,7 @@ img {
 
 .aa-properties-item .caldas {
   background-color: #055142;
-}
+} */
 
 .aa-properties-item .aa-properties-item-content {
   background-color: #fff;
