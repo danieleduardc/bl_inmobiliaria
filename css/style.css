@@ -5971,7 +5971,8 @@ html:not(.tablet):not(.mobile) .profile-classic-caption {
 }
 
 .profile-creative-image {
-	width: 100%;
+	height: 245px;
+    width: 270px;
 	border-radius: 6px;
 }
 
