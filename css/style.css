@@ -716,8 +716,11 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .imagenes-widget{
-	width: 571px;
-	height: 372px;
+
+	width: auto;
+	height: 100%;
+	max-width: 571px;
+	max-height: 353px;
 }
 
 .box-minimal-icon .box-chloe__icon .box-chloe__icon {
@@ -1804,9 +1807,10 @@ img {
 
 .logo{
 	display: inline-block;
-	max-width: 80%;
+	width: 80%;
 	height: auto;
 }
+
 
 .img-responsive {
 	width: 100%;
@@ -5971,8 +5975,8 @@ html:not(.tablet):not(.mobile) .profile-classic-caption {
 }
 
 .profile-creative-image {
-	height: 245px;
-    width: 270px;
+	max-width: 100%;
+ 	width: 500px; 
 	border-radius: 6px;
 }
 
@@ -11128,7 +11132,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-corporate.rd-navbar-static .rd-navbar-main-outer {
-	background: rgba(51, 51, 51, 0.1);
+	background: black;
 	position: absolute;
 	top: 100%;
 	z-index: 10;
