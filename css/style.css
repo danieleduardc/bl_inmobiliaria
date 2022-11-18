@@ -1732,7 +1732,7 @@ html .list-inline-md > * {
 	outline: none;
 	outline-offset: 0;
 	cursor: pointer;
-	-webkit-appearance: none;
+	/* -webkit-appearance: none; */
 	transition: .22s;
 }
 
@@ -1831,7 +1831,7 @@ img {
 	display: inline-block;
 	font-weight: 400;
 	font-style: normal;
-	speak: none;
+	/* speak: none; */
 	text-transform: none;
 }
 
@@ -2496,7 +2496,7 @@ input:-webkit-autofill ~ .form-validation {
 	background-color: #fff;
 	background-image: none;
 	border-radius: 6px;
-	-webkit-appearance: none;
+	/* -webkit-appearance: none; */
 	transition: .3s ease-in-out;
 	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	border: 1px solid #c5c6cd;
@@ -2755,7 +2755,7 @@ textarea.form-input {
 
 .toggle-custom {
 	padding-left: 60px;
-	-webkit-appearance: none;
+	/* -webkit-appearance: none; */
 }
 
 .toggle-custom:checked ~ .checkbox-custom-dummy::after {
@@ -5241,7 +5241,7 @@ html:not(.tablet):not(.mobile) .thumbnail-indigo:hover .thumbnail-indigo-caption
 
 .snackbars-right {
 	display: inline-block;
-	float: right;
+	/* float: right; */
 	text-transform: uppercase;
 }
 
@@ -9380,7 +9380,7 @@ html.tablet .ui-to-top {
 	outline: none;
 	outline-offset: 0;
 	cursor: pointer;
-	-webkit-appearance: none;
+	/* -webkit-appearance: none; */
 	display: inline-block;
 	position: relative;
 	width: 40px;
@@ -9489,7 +9489,7 @@ html.tablet .ui-to-top {
 	outline: none;
 	outline-offset: 0;
 	cursor: pointer;
-	-webkit-appearance: none;
+	/* -webkit-appearance: none; */
 }
 
 .rd-navbar-search-toggle::-moz-focus-inner {
@@ -13042,7 +13042,7 @@ button.swiper-pagination-bullet {
 	outline: none;
 	outline-offset: 0;
 	cursor: pointer;
-	-webkit-appearance: none;
+	/* -webkit-appearance: none; */
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -14625,7 +14625,7 @@ yx-axis
 	position: relative;
 	overflow: hidden;
 	/* fix for flashing background */
-	-webkit-transform: translate3d(0px, 0px, 0px);
+	/* -webkit-transform: translate3d(0px, 0px, 0px); */
 }
 
 .owl-carousel .owl-controls .owl-nav .owl-prev,
@@ -14799,7 +14799,7 @@ button.owl-dot {
 	outline: none;
 	outline-offset: 0;
 	cursor: pointer;
-	-webkit-appearance: none;
+	/* -webkit-appearance: none; */
 }
 
 button.owl-dot::-moz-focus-inner {
@@ -14927,7 +14927,7 @@ button.owl-dot::-moz-focus-inner {
 
 .lg-icon {
 	font-family: lg;
-	speak: none;
+	/* speak: none; */
 	font-style: normal;
 	font-weight: 400;
 	font-variant: normal;
@@ -15926,7 +15926,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .lg-icon {
 	font-family: lg;
-	speak: none;
+	/* speak: none; */
 	font-style: normal;
 	font-weight: 400;
 	font-variant: normal;
@@ -17423,7 +17423,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 /*-- Arc --*/
 .c3-chart-arcs-title {
-	dominant-baseline: middle;
+	/* dominant-baseline: middle; */
 	font-size: 1.3em;
 }
 
